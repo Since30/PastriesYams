@@ -1,0 +1,51 @@
+.pastry-management {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pastry-form h3, .pastry-list h3 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+input[type="text"], input[type="number"], button {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.pastry-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pastry-list li {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.pastry-list li p {
+  margin: 5px 0;
+}

@@ -1,0 +1,45 @@
+@import 'variables';
+@import 'mixins';
+
+.message-list {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: $border-radius-medium;
+  background-color: #fff; // Considère de déplacer cette couleur dans _variables.scss si réutilisée
+}
+
+.message-list h2 {
+  color: #333; // Considère de déplacer cette couleur dans _variables.scss si réutilisée
+  margin-bottom: 20px;
+}
+
+.message-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.message-list li {
+  border-bottom: 1px solid #eee; // Considère de déplacer cette couleur dans _variables.scss si réutilisée
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: $border-radius-small;
+  background-color: #f9f9f9; // Considère de déplacer cette couleur dans _variables.scss si réutilisée
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #eef; // Considère de déplacer cette couleur dans _variables.scss si réutilisée
+  }
+}
+
+.message-list li p {
+  margin: 5px 0;
+}
+
+.message-list li strong {
+  color: #444; // Considère de déplacer cette couleur dans _variables.scss si réutilisée
+  margin-right: 10px;
+}

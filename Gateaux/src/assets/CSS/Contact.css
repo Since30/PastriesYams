@@ -1,0 +1,29 @@
+
+.custom-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; /* Couleur de fond de la modal */
+    padding: 20px; /* Espacement interne de la modal */
+    border-radius: 8px; /* Coins arrondis de la modal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ombre légère autour de la modal */
+    max-width: 80%; /* Largeur maximale de la modal */
+    max-height: 80%; /* Hauteur maximale de la modal */
+    overflow: auto; /* Activation de la barre de défilement si le contenu dépasse la modal */
+  }
+  
+  /* Styles CSS pour l'arrière-plan de la modal */
+  .custom-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent de l'arrière-plan */
+    z-index: 999; /* Valeur z-index pour s'assurer que la modal est au-dessus de tout le reste */
+    display: flex;
+    justify-content: center; /* Centre la modal horizontalement */
+    align-items: center; /* Centre la modal verticalement */
+  }
+  

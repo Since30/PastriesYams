@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "message": "Hello World",
+    "status": "unread"
+  },
+  {
+    "id": 2,
+    "name": "bob",
+    "message": "ceci est un message",
+    "status": "unread"
+  },
+  {
+    "id": "4f873402-1514-4b6c-b6c4-b0a272ec815e",
+    "name": "Since",
+    "message": "ceci est un message2",
+    "status": "unread"
+  },
+  {
+    "id": "900a66c5-e578-458d-8d47-3e1c02b7d920",
+    "name": "banane",
+    "message": "Les banane c'est délicieux!",
+    "status": "unread"
+  },
+  {
+    "id": "164cdb6d-013b-43e3-92b5-0f09e63b1048",
+    "name": "cerise",
+    "message": "les cerise c'est délicieux!",
+    "status": "unread"
+  },
+  {
+    "id": "27d2d2b0-44a4-49a6-83a4-7171213dc6ea",
+    "name": "Chocolat",
+    "message": "je kiffe le chocolat!",
+    "status": "read"
+  },
+  {
+    "id": "81aa8034-d9f0-4d36-881c-e63a0fd43afc",
+    "name": "miam",
+    "message": "les religueuse sont bonne!",
+    "status": "read"
+  },
+  {
+    "id": "77f5fc43-f6ba-4730-a6af-107ed3162eeb",
+    "name": "cremme",
+    "message": "la crème patissiere",
+    "status": "read"
+  },
+  {
+    "id": "6c594e80-9e22-45e7-9a46-7d0105f1d4e8",
+    "name": "religieuse",
+    "message": "hmm c'est délicieux les religieuses!",
+    "status": "read"
+  }
+]

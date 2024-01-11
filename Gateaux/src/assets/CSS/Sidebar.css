@@ -1,0 +1,72 @@
+.sidebar {
+  height: 100%;
+  margin-top: 8px;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333; 
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centrez horizontalement les éléments */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+/* Pour les liens dans la sidebar */
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center; /* Centrez le texte horizontalement */
+}
+
+.sidebar a:hover, .sidebar a:focus {
+  background-color: #34495e; /* Changement de couleur au survol */
+  color: #ecf0f1; /* Couleur de texte au survol */
+}
+
+/* Style pour le contenu décalé à droite de la sidebar */
+.content {
+  margin-left: 250px; 
+  padding: 20px;
+}
+/* CSS pour centrer les titres */
+.titles {
+  text-align: center; /* Centre le texte horizontalement */
+  margin-top: 20px; /* Ajoute un espace en haut des titres */
+}
+
+.titles h1 {
+  font-size: 24px; /* Taille de police pour le titre principal */
+}
+
+.titles h2 {
+  font-size: 18px; /* Taille de police pour le sous-titre */
+  color: #555; /* Couleur de texte légèrement grise */
+}
+.text { /* Ajoute un espace en haut du texte */
+  text-align: center;
+  font-size: 18px;
+}
+.badge {
+  background-color: red; /* Couleur de fond rouge */
+  color: white; /* Texte en blanc */
+  border-radius: 50%; /* Pour obtenir une forme de cercle */
+  padding: 4px 8px; /* Espace autour du texte */
+  font-size: 12px; /* Taille de la police */
+  margin-left: 10px; /* Espace à gauche du badge */
+}

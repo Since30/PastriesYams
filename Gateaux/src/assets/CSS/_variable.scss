@@ -1,0 +1,59 @@
+//couleur de base
+$primary-color: #5C6BC0;
+$primary-hover-color: #3F51B5;
+$modal-background-color: rgba(0, 0, 0, 0.5);
+$background-light: #f7f7f7;
+$border-color: #ccc;
+$text-color-light: #aaa;
+$border-radius-small: 4px;
+$border-radius-medium: 8px;
+
+// couleur Navbar et liens
+$navbar-bg-color: #333;
+$nav-link-color: white;
+$nav-hover-bg-color: #ddd;
+$nav-hover-color: black;
+$button-bg-color: #fff;
+$button-color: #333;
+$link-bg-color: #555;
+$link-border-color: #777;
+$link-hover-bg-color: #777;
+$link-hover-color: #fff;
+$item-border-color: #ddd;
+$message-border-color: #eee;
+$text-color-dark: #333;
+$text-color-darker: #444;
+
+
+// Nouvelles couleurs pour pastrymanagement
+$color-text-dark: #333;
+$color-text-darker: #444;
+$border-color-light: #ddd;
+$border-color-lighter: #eee;
+$background-color-light: #f9f9f9;
+$button-bg-color-success: #28a745;
+$button-bg-hover-color-success: #218838;
+
+// Nouvelles couleurs pour sidebar
+$sidebar-bg-color: #333;
+$sidebar-link-color: white;
+$sidebar-hover-bg-color: #34495e;
+$sidebar-hover-color: #ecf0f1;
+$titles-color: #555;
+$badge-bg-color: red;
+$badge-color: white;
+
+// Nouvelles couleurs pour UserList
+$table-header-bg-color: #28a745;
+$table-row-hover-bg-color: #ddd;
+$table-row-even-bg-color: #f2f2f2;
+
+// Nouvelles couleurs pour YamsGame
+$roll-button-bg-color: #4CAF50;
+$roll-button-hover-bg-color: #45a049;
+$roll-button-disabled-bg-color: #999;
+$modal-background-color: rgba(255, 255, 255, 0.9);
+$modal-backdrop-color: rgba(0, 0, 0, 0.4);
+$select-border-color: #ccc;
+$close-button-bg-color: #f44336;
+$close-button-hover-bg-color: #d32f2f;

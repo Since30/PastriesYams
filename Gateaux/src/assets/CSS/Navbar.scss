@@ -1,0 +1,83 @@
+@import 'variables';
+@import 'mixins';
+
+.navbar {
+  background-color: $navbar-bg-color;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.centered-items {
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-right: 10px;
+}
+
+.right-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li a {
+  display: block;
+  color: $nav-link-color;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 1px solid $nav-link-color;
+  border-radius: $border-radius-small;
+  margin-right: 10px;
+
+  &:hover {
+    background-color: $nav-hover-bg-color;
+    color: $nav-hover-color;
+  }
+}
+
+.right-items span {
+  color: $nav-link-color;
+  margin-right: 10px;
+}
+
+.right-items button {
+  background-color: $button-bg-color;
+  color: $button-color;
+  border: none;
+  border-radius: $border-radius-small;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $nav-hover-bg-color;
+    color: $button-color;
+  }
+}
+
+.right-items a {
+  background-color: $link-bg-color;
+  color: $nav-link-color;
+  border: 1px solid $link-border-color;
+  padding: 8px 16px;
+  margin-left: 10px;
+  text-decoration: none;
+  border-radius: $border-radius-small;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $link-hover-bg-color;
+    color: $link-hover-color;
+  }
+}

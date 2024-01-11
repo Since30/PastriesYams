@@ -1,0 +1,75 @@
+@import 'variables';
+@import 'mixins';
+
+.sidebar {
+  height: 100%;
+  margin-top: 8px;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $sidebar-bg-color;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  display: block;
+  color: $sidebar-link-color;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+
+  &:hover, &:focus {
+    background-color: $sidebar-hover-bg-color;
+    color: $sidebar-hover-color;
+  }
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.titles {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.titles h1 {
+  font-size: 24px;
+}
+
+.titles h2 {
+  font-size: 18px;
+  color: $titles-color;
+}
+
+.text {
+  text-align: center;
+  font-size: 18px;
+}
+
+.badge {
+  background-color: $badge-bg-color;
+  color: $badge-color;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+  margin-left: 10px;
+}

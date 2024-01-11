@@ -1,0 +1,129 @@
+.yams-game-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: 70%;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  .dice-container {
+    margin: 20px 0;
+  }
+  
+  .die {
+    display: inline-block;
+    width: 60px; 
+    height: 60px; 
+   
+    background-size: cover;
+    border: 1px solid #000;
+    margin: 0 5px;
+  }
+  
+  .roll-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .roll-button:disabled {
+    background-color: #999;
+  }
+  
+  .roll-button:not(:disabled):hover {
+    background-color: #45a049;
+  }
+   
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9); /* Fond semi-transparent */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombrage pour un effet de profondeur */
+    z-index: 1000;
+    max-height: 80vh; /* Limite la hauteur à 80% de la hauteur de la fenêtre */
+    overflow-y: auto;
+    width: 80%; /* Largeur de la modal */
+    max-width: 500px; /* Largeur maximale */
+  }
+  
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Fond sombre semi-transparent pour l'arrière-plan */
+    z-index: 999;
+  }
+  
+  .modal-content {
+    text-align: center;
+  }
+  
+  .select-pastry {
+    margin-top: 20px;
+  }
+  
+  .select-pastry select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .select-pastry label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .confirm-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .confirm-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .close-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .close-button:hover {
+    background-color: #d32f2f;
+  }

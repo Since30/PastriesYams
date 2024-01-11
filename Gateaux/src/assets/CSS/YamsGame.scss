@@ -1,0 +1,131 @@
+@import 'variables';
+@import 'mixins';
+
+.yams-game-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 70%;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: $border-radius-medium;
+  background-color: $background-color-light;
+}
+
+.dice-container {
+  margin: 20px 0;
+}
+
+.die {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  border: 1px solid #000;
+  margin: 0 5px;
+}
+
+.roll-button {
+  background-color: $roll-button-bg-color;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: $border-radius-small;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:disabled {
+    background-color: $roll-button-disabled-bg-color;
+  }
+
+  &:not(:disabled):hover {
+    background-color: $roll-button-hover-bg-color;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $modal-background-color;
+  padding: 20px;
+  border-radius: $border-radius-medium;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  max-height: 80vh;
+  overflow-y: auto;
+  width: 80%;
+  max-width: 500px;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $modal-backdrop-color;
+  z-index: 999;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.select-pastry {
+  margin-top: 20px;
+}
+
+.select-pastry select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid $select-border-color;
+  border-radius: $border-radius-small;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.select-pastry label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.confirm-button {
+  background-color: $roll-button-bg-color;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: $border-radius-small;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.confirm-button:disabled {
+  background-color: $roll-button-disabled-bg-color;
+  cursor: not-allowed;
+}
+
+.close-button {
+  background-color: $close-button-bg-color;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: $border-radius-small;
+  cursor: pointer;
+  margin-top: 10px;
+
+  &:hover {
+    background-color: $close-button-hover-bg-color;
+  }
+}
