@@ -68,3 +68,20 @@
   color: #333; 
   margin-top: 10px;
 }
+
+.rupture {
+  position: relative;
+}
+
+.rupture::before {
+  content: "Rupture";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

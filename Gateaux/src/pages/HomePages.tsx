@@ -32,12 +32,12 @@ const HomePage: React.FC = () => {
         <span className="remaining-lots">Lots restants:</span>
       </header>
       <div className="items-container">
-        {pastries?.map((pastery: Pastery) => (
-          <div className="item" key={pastery.id}>
-            <img src={`/pictures/${pastery.image}`} alt={pastery.name} />
-            <p>{pastery.name} : {pastery.quantity}</p>
-          </div>
-        ))}
+      {pastries?.map((pastery: Pastery) => (
+  <div className={`item ${pastery.quantity === 0 ? 'rupture' : ''}`} key={pastery.id}>
+    <img src={`/pictures/${pastery.image}`} alt={pastery.name} />
+    <p>{pastery.name} : {pastery.quantity}</p>
+  </div>
+))}
       </div>
     </div>
         
